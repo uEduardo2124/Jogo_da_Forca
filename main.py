@@ -59,7 +59,7 @@ while True:
                 -''']
 
     def sorteio():
-        palavras_jogo = ['Homem de Ferro', 'Pixels', 'Transformers', 'Sonic', 'Vingadores Guerra Infinita', 'Tartarugas Ninja']
+        palavras_jogo = ['palavras de sua escolha']
         escolhido = random.choice(palavras_jogo)
         return escolhido
 
@@ -75,7 +75,7 @@ while True:
             print('-' * 42)
             print('\033[32mBem vindo ao joigo da Forca\033[m')
             print('_' * 42)
-            print('Adivinhe qual a palavra correta (Assunto: filmes da cultura pop)')
+            print('Adivinhe qual a palavra correta (Assunto: assunto de sua escolha)')
             print('OBS:As primeiras letras de cada palavra serão maiúsculas(incluso caso hajam espaços no nome)')
 
 
